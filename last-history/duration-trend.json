@@ -1,3 +1,8 @@
 [ {
+  "buildOrder" : 6,
+  "reportUrl" : "https://tiramtaramta.github.io/selenium-py-peldatar/6/",
+  "reportName" : "Allure Report with history",
+  "data" : { }
+}, {
   "data" : { }
 } ]
