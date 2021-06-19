@@ -3,4 +3,4 @@ Olvasd be a fájlt, tárold a sorokat listában, majd írd ki a lista tartalmát
 """
 with open("adat.txt", "r") as file:
     adat_list = file.readlines()
-    print(adat_list)
+    print(* [s[:-1] for s in adat_list], sep = " ")
