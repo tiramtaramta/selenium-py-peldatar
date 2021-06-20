@@ -6,7 +6,7 @@ import csv
 
 with open('table_in.csv') as csv_in:  # mit nyitunk meg, milyen változó néveel
     csv_reader = csv.reader(csv_in, delimiter=',')  # mi a file és mi az elválasztó
-    next(csv_reader)  # ez arra való, hogy a header sort ne olvassa be
+    # next(csv_reader)  # ez arra való, hogy a header sort ne olvassa be
 
     csv_list = []
     for row in csv_reader:  # soronként listába tesszük
