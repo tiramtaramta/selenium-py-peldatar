@@ -1,6 +1,7 @@
 from selenium import webdriver
 import csv
 
+
 def find_and_clear_by_id(id):
     element = browser.find_element_by_id(id)
     element.clear()
