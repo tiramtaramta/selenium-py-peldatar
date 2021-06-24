@@ -5,6 +5,7 @@ Feladatot, hogy kezed le ezt a hibát és írj ki valami emberileg olvasható ü
 Extra feladatként készíts egy saját függvényt, ami bármilyen find_by_id lokátor hívásnál lekezeli a nemlétező elem tipusú hibát.
 """
 from selenium import webdriver
+from selenium.common.exceptions import NoSuchElementException
 
 url_name = input("Kérlek adj meg egy pontos URL-címet: ")
 element_name = input("Kérlek adj meg egy ID-nevet: ")
@@ -17,6 +18,7 @@ try:
     nems = driver.find_elements_by_id(element_name)
 
     if len(nems) > 0:
+        nems[0].click()
         print(f"Van {element_name} nevű elem az oldalon.")
     else:
         print(f"Nincs {element_name} nevű elem az oldalon.")
