@@ -11,11 +11,11 @@ cars_age_list = []
 i = 0
 
 while not (i == 5):
-    print("Kocsi regisztrálása: 1 \n"
-        "Összes kocsi adatainak lekérdezése 2 \n"
-        "Adott kocsi adatainak lekérdezése (index alapján) 3 \n"
-        "Kocsi eladása (törlése) 4 \n"
-        "Kilépés a programból 5 \n")
+    print("Kocsi regisztrálása: 1-es gomb \n"
+        "Összes kocsi adatainak lekérdezése: 2-es gomb \n"
+        "Adott kocsi adatainak lekérdezése (index alapján): 3-as gomb \n"
+        "Kocsi eladása (törlése): 4-es gomb \n"
+        "Kilépés a programból: 5-ös gomb \n")
     v = int(input("Válassz a fenti menüpontokból: "))
     if v == 1 or v == 2 or v == 3 or v == 4 or v == 5:
         i = v
@@ -34,7 +34,7 @@ while not (i == 5):
             j += 1
 
     if i == 3:
-        j = int(input("kérlek add meg az indexét a megnézendő autónak: "))
+        j = int(input("Kérlek add meg az indexét a megnézendő autónak: "))
         if j < len(cars_name_list):
             print(cars_name_list[j], cars_age_list[j])
         else:
@@ -42,7 +42,7 @@ while not (i == 5):
             i = 3
 
     if i == 4:
-        j = int(input("kérlek add meg az indexét az eladandó autónak: "))
+        j = int(input("Kérlek add meg az indexét az eladandó autónak: "))
         if j < len(cars_name_list):
             del cars_name_list[j]
             del cars_age_list[j]
