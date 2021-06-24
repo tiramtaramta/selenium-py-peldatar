@@ -48,7 +48,10 @@ while not (i == 5):
             del car_age_list[j]
         else:
             print("Nincs ilyen indexű autó")
+            break
             i = 4
+
+
 
 
 
