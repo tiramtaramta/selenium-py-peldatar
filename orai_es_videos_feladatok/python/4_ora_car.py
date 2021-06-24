@@ -6,8 +6,8 @@
 # 5, Kilepes az applicaciobol
 
 
-cars_name_list = []
-cars_age_list = []
+car_type_list = []
+car_age_list = []
 i = 0
 
 while not (i == 5):
@@ -21,33 +21,34 @@ while not (i == 5):
         i = v
 
     if i == 1:
-        car_name = input("Kérlek add meg az autó nevét: ")
+        car_type = input("Kérlek add meg az autó típusát: ")
         car_age = input("Kérlek add meg az autó korát: ")
-        cars_name_list.append(car_name)
-        cars_age_list.append(car_age)
+        car_type_list.append(car_type)
+        car_age_list.append(car_age)
         i = 0
 
     if i == 2:
         j = 0
-        while j < len(cars_age_list):
-            print(cars_name_list[j], cars_age_list[j])
+        while j < len(car_age_list):
+            print(car_type_list[j], car_age_list[j])
             j += 1
 
     if i == 3:
         j = int(input("Kérlek add meg az indexét a megnézendő autónak: "))
-        if j < len(cars_name_list):
-            print(cars_name_list[j], cars_age_list[j])
+        if j < len(car_type_list):
+            print(car_type_list[j], car_age_list[j])
         else:
             print("Nincs ilyen indexű autó")
             i = 3
 
     if i == 4:
         j = int(input("Kérlek add meg az indexét az eladandó autónak: "))
-        if j < len(cars_name_list):
-            del cars_name_list[j]
-            del cars_age_list[j]
+        if j < len(car_type_list):
+            del car_type_list[j]
+            del car_age_list[j]
         else:
             print("Nincs ilyen indexű autó")
+            i = 4
 
 
 
