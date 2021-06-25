@@ -3,6 +3,7 @@ első óra
 """""
 
 # a változó bármi lehet
+my_number = int()
 my_number = 5
 my_text = "text"
 
@@ -24,6 +25,7 @@ number3 = 32.3e18  # scientific notation https://www.geeksforgeeks.org/display-s
 number4 = .86j  # complex numbers https://www.tutorialspoint.com/complex-numbers-in-python
 
 # stringek fajáti
+string = str()
 my_string = "car"
 my_string2 = 'car'  # mindegy, melyiket használjuk, de legyen egységes a doksiban
 print(type(my_string))
