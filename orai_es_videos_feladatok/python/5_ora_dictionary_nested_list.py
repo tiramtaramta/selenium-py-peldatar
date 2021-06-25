@@ -59,6 +59,9 @@ for key, value in person.items():
 person["age"] += 2
 person["address"] = "Canada"
 print(person)
+# érték felülírása update metódussal
+person.update({"age": 200})
+print(person)
 
 # Új kulcs - érték hozzáadása:
 person["hair_color"] = "black"  # pont mint az update... ha már létezik, felülírja
