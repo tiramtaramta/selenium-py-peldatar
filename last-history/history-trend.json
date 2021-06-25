@@ -1,4 +1,16 @@
 [ {
+  "buildOrder" : 100,
+  "reportUrl" : "https://tiramtaramta.github.io/selenium-py-peldatar/100/",
+  "reportName" : "Allure Report with history",
+  "data" : {
+    "failed" : 0,
+    "broken" : 0,
+    "skipped" : 0,
+    "passed" : 4,
+    "unknown" : 0,
+    "total" : 4
+  }
+}, {
   "buildOrder" : 99,
   "reportUrl" : "https://tiramtaramta.github.io/selenium-py-peldatar/99/",
   "reportName" : "Allure Report with history",
@@ -217,18 +229,6 @@
 }, {
   "buildOrder" : 81,
   "reportUrl" : "https://tiramtaramta.github.io/selenium-py-peldatar/81/",
-  "reportName" : "Allure Report with history",
-  "data" : {
-    "failed" : 0,
-    "broken" : 0,
-    "skipped" : 0,
-    "passed" : 4,
-    "unknown" : 0,
-    "total" : 4
-  }
-}, {
-  "buildOrder" : 80,
-  "reportUrl" : "https://tiramtaramta.github.io/selenium-py-peldatar/80/",
   "reportName" : "Allure Report with history",
   "data" : {
     "failed" : 0,
