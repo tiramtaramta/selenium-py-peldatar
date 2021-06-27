@@ -9,12 +9,12 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "190cbfd77b59a769",
-      "reportUrl" : "https://tiramtaramta.github.io/selenium-py-peldatar/124//#testresult/190cbfd77b59a769",
+      "uid" : "1dd04c909d6a7041",
+      "reportUrl" : "https://tiramtaramta.github.io/selenium-py-peldatar/125//#testresult/1dd04c909d6a7041",
       "status" : "passed",
       "time" : {
-        "start" : 1624707382484,
-        "stop" : 1624707382485,
+        "start" : 1624787889677,
+        "stop" : 1624787889678,
         "duration" : 1
       }
     } ]
@@ -29,12 +29,12 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "70a928ebaba3cbcb",
-      "reportUrl" : "https://tiramtaramta.github.io/selenium-py-peldatar/124//#testresult/70a928ebaba3cbcb",
+      "uid" : "6aba722b49804f1",
+      "reportUrl" : "https://tiramtaramta.github.io/selenium-py-peldatar/125//#testresult/6aba722b49804f1",
       "status" : "passed",
       "time" : {
-        "start" : 1624707382483,
-        "stop" : 1624707382483,
+        "start" : 1624787889676,
+        "stop" : 1624787889676,
         "duration" : 0
       }
     } ]
@@ -49,12 +49,12 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "6cc6b38fb074895c",
-      "reportUrl" : "https://tiramtaramta.github.io/selenium-py-peldatar/124//#testresult/6cc6b38fb074895c",
+      "uid" : "9a367a717706688f",
+      "reportUrl" : "https://tiramtaramta.github.io/selenium-py-peldatar/125//#testresult/9a367a717706688f",
       "status" : "passed",
       "time" : {
-        "start" : 1624707382482,
-        "stop" : 1624707382482,
+        "start" : 1624787889674,
+        "stop" : 1624787889674,
         "duration" : 0
       }
     } ]
@@ -69,12 +69,12 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "1937b35049971a3c",
-      "reportUrl" : "https://tiramtaramta.github.io/selenium-py-peldatar/124//#testresult/1937b35049971a3c",
+      "uid" : "10719c36a50003b7",
+      "reportUrl" : "https://tiramtaramta.github.io/selenium-py-peldatar/125//#testresult/10719c36a50003b7",
       "status" : "passed",
       "time" : {
-        "start" : 1624707382472,
-        "stop" : 1624707382472,
+        "start" : 1624787889666,
+        "stop" : 1624787889666,
         "duration" : 0
       }
     } ]
