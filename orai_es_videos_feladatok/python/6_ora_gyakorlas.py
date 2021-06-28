@@ -5,12 +5,12 @@ import csv
 
 my_number = [5, 12, 16, 19, 21, 13]
 
-# with open('number.txt', 'a') as file:
-#     for number in my_number:
-#         file.write(str(number) + "\n")
-# with open('number.txt', 'r') as file:
-#     result = file.read()
-#     print(result)
+with open('number.txt', 'a') as file:
+    for number in my_number:
+        file.write(str(number) + "\n")
+with open('number.txt', 'r') as file:
+    result = file.read()
+    print(result)
 
 
 # Exercise 2
@@ -19,14 +19,14 @@ my_number = [5, 12, 16, 19, 21, 13]
 # num1 = [2,3,4,5]
 # num2 = [2,4,5,6,7,8,9,2]
 # Result = 4
-# my_list1 = ["Tom", "Christine", "Mark", "Daniel"]
-# my_list2 = ["tom", "Tom", "Beatrix", "Job", "Frodo", "Daniel", "daniel", "Gandalf", "mark"]
-# x = 0
-# for i in my_list1:
-#     for j in my_list2:
-#         if i.lower() == j.lower():
-#             x += 1
-# print(x)
+my_list1 = ["Tom", "Christine", "Mark", "Daniel"]
+my_list2 = ["tom", "Tom", "Beatrix", "Job", "Frodo", "Daniel", "daniel", "Gandalf", "mark"]
+x = 0
+for i in my_list1:
+    for j in my_list2:
+        if i.lower() == j.lower():
+            x += 1
+print(x)
 
 
 # Exercise 3
