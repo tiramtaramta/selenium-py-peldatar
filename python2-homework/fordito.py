@@ -11,3 +11,22 @@ while True:
         user_list.reverse()
         print(user_list)
         break
+
+# solution 2
+
+# flag = True
+# numbers = []
+#
+# while flag:
+#     try:
+#         user_input = input("your number: ")
+#         if int(user_input) < 0:
+#             print("Number can not be negative")
+#         elif int(user_input) == 0:
+#             flag == False
+#         else:
+#             numbers.append(int(user_input))
+#     except:
+#         print("input must be a number")
+# numbers.reserve()
+# print(numbers)
