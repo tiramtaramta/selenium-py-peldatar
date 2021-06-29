@@ -26,3 +26,21 @@ try:
 finally:
     driver.close()
 
+# # solution 2
+# # By id
+# car_menu = driver.find_element_by_id("carselect")
+# my_cars = Select(car_menu)
+# for i in my_cars.options:
+#     print(i.text)
+#
+# # By name
+# table = driver.find_element_by_name("courses")
+# print(table.text)
+#
+# # by xpath
+# element_xpath = driver.find_element_by_xpath("//legend[text()='Switch to Window Example']")
+# print(element_xpath.text)
+#
+# # print attribute value
+# elem_by_id = driver.find_element_by_id('hide-textbox').get_attribute("type")
+# print(elem_by_id)
