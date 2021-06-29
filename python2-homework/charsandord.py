@@ -17,4 +17,4 @@ with open("text.txt", "r") as file:
     text_list.sort()
     dict_list = dict(Counter(text_list))
     for k, v in dict_list.items():
-        print(f"szó_{k}, előfordulások száma_{v}")
+        print(f"szó_{k} előfordulások_száma_{v}")
