@@ -8,6 +8,7 @@ NAME alapján
 XPath kifejezéssel Minden megtalált elemnek irassd ki a text értékét, vagy egy attribútum értékét.
 """
 from selenium import webdriver
+from selenium.webdriver.support.select import Select
 
 driver = webdriver.Chrome()
 
