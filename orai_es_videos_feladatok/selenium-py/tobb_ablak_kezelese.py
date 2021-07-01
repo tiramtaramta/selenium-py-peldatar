@@ -19,7 +19,8 @@ try:
     browser.switch_to.window(main_window)  # visszaváltunk az eredeti ablakba
     example_input = browser.find_element_by_id("example-input-text")  # egy példa beviteli mező kiválasztása
     example_input.send_keys(text)  # belehelyezzük a másik oldalról kimentett szövegrészt
-
+except:
+    print("Valami hiba történt")
 finally:
     pass
     # browser.quit()
