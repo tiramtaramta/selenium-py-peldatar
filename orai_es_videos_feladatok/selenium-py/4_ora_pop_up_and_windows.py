@@ -60,7 +60,7 @@ try:
     browser.get(URL)
 
     browser.maximize_window()
-    browser.set_window_size(500, 1000)
+    browser.set_window_size(500, 1000)  # ahhoz, hogy a gomb látszódjon, amit keresünk... át kell állítani a méretét
     time.sleep(2)
 
     toggle_btw = browser.find_element_by_xpath('//span[@class="navbar-toggler-icon"]')
