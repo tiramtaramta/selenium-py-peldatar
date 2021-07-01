@@ -19,5 +19,8 @@ try:
         elements = done_false.text
         print(elements)
 
+except:
+    print("Valami nem oké")
+
 finally:
     driver.close()
