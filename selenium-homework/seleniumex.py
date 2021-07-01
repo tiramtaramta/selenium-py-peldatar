@@ -4,24 +4,52 @@ Az oldalon probáld megtalálni a <div id="nemletezik"></div> mezőt. A lényeg,
 Feladatot, hogy kezed le ezt a hibát és írj ki valami emberileg olvasható üzenetet. 
 Extra feladatként készíts egy saját függvényt, ami bármilyen find_by_id lokátor hívásnál lekezeli a nemlétező elem tipusú hibát.
 """
+import selenium.common.exceptions
 from selenium import webdriver
-from selenium.common.exceptions import NoSuchElementException
 
+PATH = "C:\\Windows\\chromedriver.exe"
 url_name = input("Kérlek adj meg egy pontos URL-címet: ")
-element_name = input("Kérlek adj meg egy ID-nevet: ")
+id_name = input("Kérlek adj meg egy ID-nevet: ")
 
-driver = webdriver.Chrome()
+browser = webdriver.Chrome(PATH)
 
 try:
-    driver.get(url_name)
+    browser.get(url_name)
 
-    nems = driver.find_elements_by_id(element_name)
+    browser.find_element_by_id(id_name)
 
-    if len(nems) > 0:
-        nems[0].click()
-        print(f"Van {element_name} nevű elem az oldalon.")
-    else:
-        print(f"Nincs {element_name} nevű elem az oldalon.")
+except selenium.common.exceptions.NoSuchElementException:
+    print(f"Nem létezik '{id_name}' nevű elem az oldalon")
 
 finally:
-    driver.close()
+    browser.close()
+
+
+########### extra megoldás metódussal
+
+
+# def check_element_by_id(id_name):
+#     try:
+#         browser.get(url_name)
+#
+#         browser.find_element_by_id(id_name)
+#
+#     except selenium.common.exceptions.NoSuchElementException:
+#         print(f"Nem létezik {id_name} nevű elem az oldalon")
+#
+# try:
+#     PATH = "C:\\Windows\\chromedriver.exe"  # lehet a try-ban, mert ez is dobhat hibát
+#     URL = "http://www.python.org"
+#     browser = webdriver.Chrome(PATH)
+#     browser.get(URL)
+#
+#     check_element_by_id("nemletezik")
+#
+# except:
+#     print("Valami más error van")
+#
+# finally:
+#     browser.quit()
+
+
+

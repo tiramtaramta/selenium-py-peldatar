@@ -13,14 +13,13 @@ driver = webdriver.Chrome()
 try:
     driver.get("http://localhost:9999/todo.html")
 
-    done_falses = driver.find_elements_by_xpath('//span[@class="done-false"]')
+    done_false_list = driver.find_elements_by_xpath('//span[@class="done-false"]')
 
-    for done_false in done_falses:
-        elements = done_false.text
-        print(elements)
+    for done_false in done_false_list:
+        print(done_false.text)
 
 except:
     print("Valami nem oké")
 
 finally:
-    driver.close()
+    driver.quit()
