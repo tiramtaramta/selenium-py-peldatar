@@ -231,4 +231,4 @@ for k, v in my_dict3.items():  # ezzel a kulcsokon és az értékeken is végigm
 
 ### szótár listává alakítása
 my_list10 = list(my_dict4.keys())  # a kulcsok listába másolása
-my_list10 = list(my_dict4.values())  # az értékek listába másolása
+my_list10 = list(my_dict4.values())  # az értékek listába másolás
