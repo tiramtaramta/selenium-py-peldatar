@@ -91,6 +91,80 @@ print(my_list7)
 del my_list7[0:3] # az első 3 indexű elemet törli a listából
 
 
+### lista használata számláló ciklusban
+my_list8 = [4, 55, 23, 2]
+for i in range(len(my_list8)):
+    print(i, my_list8[i])
+
+for (i, v) in enumerate(my_list8):    # ENUMERATE
+    print(i, v)
+
+### lista, mint függvény paramétere
+
+
+def foo2(a_list):
+    new_list = a_list[:]
+    for (i, v) in enumerate(a_list):  # ENUMERATE
+        new_list[i] = 2 * v  # megduplázza az értékeket és új listaként adja vissza
+    return new_list
+
+
+my_list9 = [1, 2, 3, 4, 5]
+print(my_list9)
+return_list = foo2(my_list9)
+print(my_list9)
+print(return_list)
+
+
+### lista beépített függvényei
+my_list = []
+my_list[0] = 12  #
+my_list.append(12)
+my_list.insert(0, 12)  # hova és mit (ha már van nulladik, akkor azt tolja az 1-re
+print(len(my_list))  # lsita hossza
+print(my_list.count(12))  # megszámolja, hogy hány 12-es van a listában
+my_list.extend([8, 9])  # a lista bővítése
+my_list.reverse()  # a lista megfordítása
+my_list.short()  # a lista nagyságrendbe rendezése
+del my_list[0]  # a lista 0. elemének törlése
+my_list.remove(12)  # törli az első előfordulását a 12-nek
+
+
+### listába ágyazott lista
+my_map = [
+    [0, 1, 2],
+    [3, 4, 5],
+    [6, 7, 8]
+]
+for i in my_map:
+    for j in i:
+        print(j)  # 12345678
+
+print(my_map[0])  # [0, 1, 2]
+print(my_map[0][1])  # 1
+
+
+### listák és karakterláncok kapcsolata
+my_string = "Hello World"
+print(my_string.split(" "))  # ['Hello', 'World"]
+num_of_words = my_string.split(" ")
+print(num_of_words)  # 2
+
+fruits3 = ["alma", "korte", "barack"]
+print(" ".join(fruits))  # alma korte barck
+print(", ".join(fruits))  # alma, korte, barck
+
+## lista feladat... karakterlánc keresése
+my_list10 = ["almaxxx", "xxx", "korte", "banxxxan", 12, "yyy"]
+my_count = 0
+for element in my_list10:
+    if type(element) != str:  # ha az elem nem string
+        continue
+    if "xxx" in element:  # ha az xxx benne van az elemben
+        my_count += 1
+print(my_count)
+
+
 ############## Rekordok TUPLE ###################
 
 my_record = ("Pete", 1985)
