@@ -40,3 +40,31 @@ try:
 
 finally:
     browser.quit()
+
+
+### Kocka megoldása
+# from selenium import webdriver
+#
+# PATH = "D:\Progmasters\Python-basics\webdriver\chromedriver.exe"
+# URL = "http://localhost:9999"
+#
+# browser = webdriver.Chrome(PATH)
+# browser.get(URL)
+#
+# link_list = browser.find_elements_by_css_selector('a')
+# href_link = []
+# for i in link_list:
+#     href_link.append(i.get_attribute("href"))
+# browser.quit()
+#
+# my_link_writing = open('links.txt', 'a')
+#
+# for i in href_link:
+#     my_link_writing.write(i)
+#     my_link_writing.write("\n")
+#
+# my_link_writing.close()
+# my_link_read = open("links.txt", 'r')
+# txt_content = my_link_read.read()
+# my_link_read.close()
+# print(txt_content, len(href_link))

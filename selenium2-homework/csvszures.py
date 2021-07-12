@@ -16,4 +16,5 @@ with open('table_in.csv') as csv_in:  # mit nyitunk meg, milyen változó névee
 with open('table_out.csv', "w", newline='') as csv_out:
     csv_writer = csv.writer(csv_out, delimiter=',')
     for line in csv_list:
-        csv_writer.writerow(line[0:2])
+        line = [x.strip() for x in line]
+        csv_writer.writerow(line[1::-1])
