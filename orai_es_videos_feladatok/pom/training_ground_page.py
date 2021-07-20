@@ -11,13 +11,9 @@ class TrainingGroundPage:
     def go(self):
         self.driver.get(self.url)
 
+    # ezzel bármilyen element leképezhető és a tesztben csak a (By.ID, "ipt1") kell mellé
     def general_input(self, location_type, location_name):
         return BaseElement(driver=self.driver, by=location_type, value=location_name)
-
-    @property
-    def button1(self):
-        locator = (By.ID, 'b1')
-        return BaseElement(driver=self.driver, by=locator[0], value=locator[1])
 
     def close_test(self):
         self.driver.quit()

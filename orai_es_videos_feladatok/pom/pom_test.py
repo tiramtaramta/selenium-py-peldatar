@@ -13,6 +13,6 @@ test_page.go()
 test_page.general_input(By.ID, "ipt1").send_text_to_input("Most egy probakor")
 test_page.general_input(By.ID, "ipt2").send_text_to_input("Most meg egy probakor")
 
-assert test_page.button1.text() == 'Button1'
+assert test_page.general_input(By.ID, "b1").text() == 'Button1'
 time.sleep(5)
 test_page.close_test()
