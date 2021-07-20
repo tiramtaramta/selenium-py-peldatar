@@ -9,12 +9,12 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "e097d8ecce413373",
-      "reportUrl" : "https://tiramtaramta.github.io/selenium-py-peldatar/162//#testresult/e097d8ecce413373",
+      "uid" : "1c19ae517e15fffc",
+      "reportUrl" : "https://tiramtaramta.github.io/selenium-py-peldatar/163//#testresult/1c19ae517e15fffc",
       "status" : "passed",
       "time" : {
-        "start" : 1626725761076,
-        "stop" : 1626725761076,
+        "start" : 1626800088109,
+        "stop" : 1626800088109,
         "duration" : 0
       }
     } ]
@@ -29,13 +29,13 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "89e40a9c59f4c0aa",
-      "reportUrl" : "https://tiramtaramta.github.io/selenium-py-peldatar/162//#testresult/89e40a9c59f4c0aa",
+      "uid" : "97e1d86944c42e1c",
+      "reportUrl" : "https://tiramtaramta.github.io/selenium-py-peldatar/163//#testresult/97e1d86944c42e1c",
       "status" : "passed",
       "time" : {
-        "start" : 1626725761074,
-        "stop" : 1626725761075,
-        "duration" : 1
+        "start" : 1626800088108,
+        "stop" : 1626800088108,
+        "duration" : 0
       }
     } ]
   },
@@ -49,12 +49,12 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "9a1677e00c0514bf",
-      "reportUrl" : "https://tiramtaramta.github.io/selenium-py-peldatar/162//#testresult/9a1677e00c0514bf",
+      "uid" : "c011306062dacb35",
+      "reportUrl" : "https://tiramtaramta.github.io/selenium-py-peldatar/163//#testresult/c011306062dacb35",
       "status" : "passed",
       "time" : {
-        "start" : 1626725761073,
-        "stop" : 1626725761073,
+        "start" : 1626800088106,
+        "stop" : 1626800088106,
         "duration" : 0
       }
     } ]
@@ -69,13 +69,13 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "de2879b132e02997",
-      "reportUrl" : "https://tiramtaramta.github.io/selenium-py-peldatar/162//#testresult/de2879b132e02997",
+      "uid" : "29a4e61c9ef3c611",
+      "reportUrl" : "https://tiramtaramta.github.io/selenium-py-peldatar/163//#testresult/29a4e61c9ef3c611",
       "status" : "passed",
       "time" : {
-        "start" : 1626725761070,
-        "stop" : 1626725761071,
-        "duration" : 1
+        "start" : 1626800088104,
+        "stop" : 1626800088104,
+        "duration" : 0
       }
     } ]
   }
