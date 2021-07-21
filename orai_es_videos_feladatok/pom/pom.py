@@ -51,9 +51,9 @@ test_page.go()  # itt meghívjuk a go metódust
 test_page.type_int_input_field(input_value)  # a metódussal beírjuk az input_value-ba mentett szöveget
 text_from_input = test_page.get_input_text()  # metódussal elkérjük azt a szöveget, amit beírtunk, hogy az assert lefusson
 
-assert text_from_input == "It worked", f"Test Failed: Input did not match expected ({input_value})."
+# assert text_from_input == "It worked", f"Test Failed: Input did not match expected ({input_value})."
 # szép megoldás az assertre -->
-# assert text_from_input == "2", f"Test Failed: Input did not match expected ({input_value})."
+assert text_from_input == "It worked", f"Test Failed: Input did not match expected ({input_value})."
 test_page.click_button_1()  #a metódust meghívva kattintunk
 test_page.close_test()  # a metódussal bezárjuk az oldalt
 
