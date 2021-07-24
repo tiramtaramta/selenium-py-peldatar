@@ -1,7 +1,7 @@
 from selenium.webdriver.support.wait import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 
-
+# ezen az oldalon írjuk meg a seleniumos kódokat
 class BaseElement(object):  # itt kötelező berakni, hogy object
     def __init__(self, driver, by, value):
         self.driver = driver  #
